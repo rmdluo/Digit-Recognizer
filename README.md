@@ -2,7 +2,7 @@
 This predicts handwritten digits. For example, if there is a handwritten 2, it will predict it is a 2. Note that it is not perfect and will not always predict correctly. This is simply me learning convolutional neural networks (CNNs).
 
 # How to use
-Download all of the files
+Download all of the files \n
 Unzip numbers.zip and data.zip
 Setup python (see below)
 Run digit_recognizer_model.py

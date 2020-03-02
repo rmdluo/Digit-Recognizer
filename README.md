@@ -10,7 +10,8 @@ Now you can run number_recognizer.py or digit_recognizer.py which can predict us
 
 # Python setup
 Download the python 3 distribution from https://www.python.org/downloads/  
-Download the anaconda distribution from https://www.anaconda.com/distribution/ . 
+Download the anaconda distribution from https://www.anaconda.com/distribution/.
+*Note that Python 3.7 and above no longer support tensorflow*
 pip install numpy  
 pip install tensorflow  
 pip install keras  

@@ -21,8 +21,8 @@ pip install mlxtend
 pip install opencv-python
 
 # digit_recognizer_model.py
-This sets up the model using a CNN with 4 Conv2D layers and 2 Dense layers.  
-Note that this takes a long time to set up (it took around an hour for me).  
+This sets up the model using a CNN.  
+Note that this takes a long time to set up (it took around 15 minutes for me).  
 
 # digit_recognizer.py
 This only works with one digit.  

@@ -2,11 +2,13 @@
 This predicts handwritten digits. For example, if there is a handwritten 2, it will predict it is a 2. Note that it is not perfect and will not always predict correctly. This is simply me learning convolutional neural networks (CNNs).
 
 # How to use
-Download all of the files  
+Download all of the files
 Unzip numbers.zip and data.zip  
 Setup python (see below)  
-Run digit_recognizer_model.py  
-Now you can run number_recognizer.py or digit_recognizer.py which can predict user submitted numbers (examples in numbers.zip)  
+In the command line, navigate to the digit recognizer folder.
+Run digit_recognizer_model.py with python digit_recognizer_model.py (or just use the model that comes in the zip file)
+Now you can run number_recognizer.py or digit_recognizer.py which can predict user submitted numbers (examples in numbers.zip)
+Note that the numbers have to be put into a numbers folder
 
 # Python setup
 Download the python 3 distribution from https://www.python.org/downloads/  
@@ -16,7 +18,7 @@ pip install numpy
 pip install tensorflow  
 pip install keras  
 pip install mlxtend  
-Note that Python 3.7 and above no longer support tensorflow
+pip install opencv-python
 
 # digit_recognizer_model.py
 This sets up the model using a CNN with 4 Conv2D layers and 2 Dense layers.  

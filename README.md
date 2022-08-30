@@ -1,5 +1,5 @@
 # digit-recognizer
-This predicts handwritten digits. For example, if there is a handwritten 2, it will predict it is a 2. Note that it is not perfect and will not always predict correctly. This is simply me learning convolutional neural networks (CNNs).
+This predicts handwritten digits. For example, if there is a handwritten 2, it will predict it is a 2. Note that it is not perfect and will not always predict correctly.
 
 # How to use
 Download all of the files
@@ -12,7 +12,6 @@ Note that the numbers have to be put into a numbers folder
 
 # Python setup
 Download the python 3 distribution from https://www.python.org/downloads/  
-Download the anaconda distribution from https://www.anaconda.com/distribution/
 
 pip install numpy  
 pip install tensorflow  

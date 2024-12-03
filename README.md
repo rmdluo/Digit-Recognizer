@@ -1,3 +1,5 @@
+# See v2 branch for updated code
+
 # digit-recognizer
 This predicts handwritten digits. For example, if there is a handwritten 2, it will predict it is a 2. Note that it is not perfect and will not always predict correctly.
 
